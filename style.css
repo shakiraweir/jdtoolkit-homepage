@@ -1,31 +1,125 @@
 body {
-	background-color: #fefefe;
+	/* background-color: #f8f8f8; */
 	margin: 1em auto;
 	font-size: 10px;
-	padding: 1em;
+	padding: 4em;
 	text-align: center;
-	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	/* font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+	font-family: "Roboto", sans-serif;
 }
 
 h1 {
-	color: #555;
-	font-size: 3em;
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	text-transform: capitalize;
+	/* margin: 50px; */
+	/* margin: 60px 0 0 0; */
+	/* margin: 0; */
+	/* color: #555; */
+	/* font-size: 3em; */
+}
+
+.greeting {
+	font-size: 180px;
+	margin: 0;
+}
+
+.title {
+	font-size: 12em;
+	text-transform: lowercase;
+	margin: 0;
+	padding-bottom: .7em;
+}
+
+.subtitle {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 40px;
+	margin: 0;
+	/* color: #dcdcdc; */
+	/* color: #a0a0a0; */
+}
+
+h3, a {
+	color: #a0a0a0;
+}
+
+.emphasize {
+	/* text-align: center; */
+	/* font-size: 30px; */
+	font-weight: 500;
+	color: #fbb040;
+	/* color:	#66004d; */
+	/* padding-bottom: 9em; */
+	text-decoration: wavy;
+}
+
+main {
+	background-color: #f8f8f8;
+}
+.content {
+	/* border-color: blue; */
+	/* border: 3px solid blue; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	text-align: left;
+	height: 100vh;
+	/* background-color: #f8f8f8; */
+	/* margin-bottom:  */
+	/* margin: 50px; */
 }
 
 p {
-	color: #444;
+	/* color: #444; */
 	max-width: 30em;
 	width: 100%;
-	text-align: left;
 	margin: 1em auto;
-	font-size: 1.8em;
+	/* font-size: 1.8em; */
 	line-height: 1.3;
+	/* font-weight: 300; */
 }
 
+.project-links {
+	font-size: 1.6rem;
+	font-weight: 500;
+	text-align: center;
+}
+
+a {
+	font-family: "Source Sans Pro", sans-serif;
+font-weight: 700;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	font-size: 1.7rem;
+	color:	#fbb040;
+
+}
 img.logo {
 	width: 100%;
 	height: auto;
 	max-width: 40em;
 	max-height: 40em;
 	margin: 2em auto;
+}
+
+.text-container {
+	/* border: 1px solid green; */
+	font-size: 1.8em;
+}
+header {
+	display: flex;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: baseline;
+	width: 100%;
+	/* border: 1px solid green; */
+}
+
+.name {
+	padding-left: 0;
 }

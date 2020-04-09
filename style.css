@@ -137,6 +137,13 @@ img.logo {
 	margin: 2em auto;
 }
 
+img.poster {
+	width: 100%;
+	height: auto;
+	max-width: 30em;
+	margin: 2em auto;
+}
+
 img.one {
 	display: block;
 	margin: 6em auto;	

@@ -179,6 +179,11 @@ img.one {
 	border: 3px solid  #404040;
 }
 
+/* logo page */
+.logo { 
+	margin: 15px 0;
+}
+
 /* video page */
 iframe {
 	margin: 20px 0;

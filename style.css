@@ -178,15 +178,13 @@ img.one {
 	max-height: 50em;
 	border: 3px solid  #404040;
 }
+
 /* video page */
-.list {
-	text-align: center;
-}
 iframe {
 	margin: 20px 0;
 }
-/* footer */
 
+/* footer */
 .footer {
 font-size: 12px;
 }

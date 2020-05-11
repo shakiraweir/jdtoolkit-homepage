@@ -179,6 +179,10 @@ img.one {
 	border: 3px solid  #404040;
 }
 
+.booklet.logo {
+	margin: 0 5px;
+}
+
 /* logo page */
 .logo { 
 	margin: 15px 0;
